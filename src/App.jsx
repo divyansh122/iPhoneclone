@@ -4,7 +4,7 @@ import Highlights from "./components/Highlights";
 import * as Sentry from "@sentry/react";
 import Features from "./components/Features";
 import Chip from "./components/Chip";
-//import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <main className="bg-black">
@@ -13,6 +13,7 @@ const App = () => {
       <Highlights />
       <Features />
       <Chip />
+      <Footer />
     </main>
   );
 };
