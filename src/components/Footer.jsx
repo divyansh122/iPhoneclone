@@ -34,6 +34,12 @@ const Footer = () => {
             ))}
           </div>
         </div>
+        <p
+          className="font-bold   text-xs text-center mt-5  "
+          style={{ color: "red" }}
+        >
+          THIS SITE IS ONLY MADE FOR PERSONAL PRACTICE AND LEARNING !!!
+        </p>
       </div>
     </footer>
   );
